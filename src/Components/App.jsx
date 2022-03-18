@@ -19,7 +19,7 @@ function App() {
     }, []);
 
     const fetchItems = async() => {
-        const data = await fetch('http://cosmic-elastic.eu.ngrok.io/shakespeare/_search?size=100');
+        const data = await fetch('https://cosmic-elastic.eu.ngrok.io/shakespeare/_search?size=100');
         const itemsObj = await data.json();
         const items = itemsObj.hits.hits;
 
