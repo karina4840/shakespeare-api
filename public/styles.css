@@ -1,0 +1,86 @@
+* {
+    font-family: 'Montserrat', sans-serif ;
+}
+.App,
+.loading-page {
+    background: linear-gradient(#91a7e57e, white );
+    height: 100vh ;
+}
+.heading{
+    font-weight: 600;
+    color: white;
+    padding: 20px 0;
+    background-color: #556eb1a8;
+    display: flex;
+    justify-content: center;
+}
+.app-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loading-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading-page-text{
+    color: #252d42d5;
+    font-weight: 600;
+}
+
+
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border-bottom: 1px solid #556eb1a8;
+    margin: 30px 0;
+}
+.input-box {
+    padding: 20px;
+    width: 60%;
+    border-style: none;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+
+
+.card-container{
+    padding: 20px;
+    margin: auto;
+}
+.card{
+    background: #a1b5eb34;
+    padding: 20px;
+    color: #252d42d5;
+
+}
+.card-heading{
+    font-weight: 600;
+}
+.card-text{
+    font-size: 18px;
+}
+.cardList-container{
+    width: 60%;
+}
+
+
+nav {
+    margin: 20px;
+}
+.pagination-section {
+    list-style: none;
+    display: flex;
+    margin: auto;
+    padding: 0;
+}
+.page-link{
+    padding: 4px 8px;
+}
